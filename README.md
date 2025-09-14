@@ -1,52 +1,41 @@
-# React + Vite + CRXJS
+# Unspend
 
-This template helps you quickly start developing Chrome extensions with React, TypeScript and Vite. It includes the CRXJS Vite plugin for seamless Chrome extension development.
+Shop without going broke.
 
-## Features
+Unspend lets you simulate shopping on your favorite webshops without spending real money. Set an initial virtual budget, add items to a simulated cart, and track how your balance changes as you "spend".
 
-- React with TypeScript
-- TypeScript support
-- Vite build tool
-- CRXJS Vite plugin integration
-- Chrome extension manifest configuration
+**Use cases**
 
-## Quick Start
+- Practice shopping within a limit to improve spending habits
+- Explore "what if" scenarios (e.g., how you’d spend a billion today)
 
-1. Install dependencies:
+**Development Status**:
 
-```bash
-npm install
-```
+- Actively developing, contributions are welcome!
 
-2. Start development server:
+## Contributing
 
-```bash
-npm run dev
-```
+Contributions are welcome! To contribute:
 
-3. Open Chrome and navigate to `chrome://extensions/`, enable "Developer mode", and load the unpacked extension from the `dist` directory.
+1. Clone the repository
+2. Create a new branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -am 'Add new feature'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Open a Pull Request
 
-4. Build for production:
+Please follow best practices and write clear commit messages.
 
-```bash
-npm run build
-```
+---
 
-## Project Structure
+## License
 
-- `src/popup/` - Extension popup UI
-- `src/content/` - Content scripts
-- `manifest.config.ts` - Chrome extension manifest configuration
+This project is falls under the MIT license.
 
-## Documentation
+---
 
-- [React Documentation](https://reactjs.org/)
-- [Vite Documentation](https://vitejs.dev/)
-- [CRXJS Documentation](https://crxjs.dev/vite-plugin)
+## Contact
 
-## Chrome Extension Development Notes
-
-- Use `manifest.config.ts` to configure your extension
-- The CRXJS plugin automatically handles manifest generation
-- Content scripts should be placed in `src/content/`
-- Popup UI should be placed in `src/popup/`
+- **Author:** Aryan Shah
+- **Email:** [aryan.shah@l145.be](mailto:aryan.shah@l145.be)
+- **GitHub:** [l145dev](https://github.com/l145dev/)
+- **LinkedIn:** [Aryan Shah](https://www.linkedin.com/in/aryan-shah-l145/)
